@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.base import BaseEstimator, TransformerMixin
 
-pd.options.display.max_columns = None  # 显示所有列
+pd.options.display.max_columns = None  # 显示所有列1
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s',
                     datefmt='%Y %H:%M:%S')
